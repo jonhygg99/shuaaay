@@ -10,17 +10,23 @@
         "canonical": "#FFF1E0",
         "tonalRamp": ["#3A2E22", "#5A4632", "#7C6045", "#9F7D5C", "#C29D7B", "#DEBD9E", "#F2D9C0", "#FFF1E0"]
       },
+      "bone": {
+        "role": "neutral",
+        "displayName": "Hueso cálido",
+        "canonical": "#FFFCF6",
+        "tonalRamp": ["#3A352A", "#5A5344", "#7C7460", "#9F967F", "#C2B9A0", "#DED6C2", "#F2ECDF", "#FFFCF6"]
+      },
       "ink": {
         "role": "neutral",
         "displayName": "Ciruela de tinta",
         "canonical": "#23102B",
         "tonalRamp": ["#120817", "#23102B", "#3A1B47", "#552D66", "#714587", "#8E63A0", "#AC86B8", "#CBACCF"]
       },
-      "raspberry": {
+      "cobalt": {
         "role": "primary",
-        "displayName": "Frambuesa de fiesta",
-        "canonical": "#E84A85",
-        "tonalRamp": ["#3E1024", "#641B39", "#8C2850", "#B33667", "#D63F76", "#E84A85", "#F27BA6", "#F9B0C9"]
+        "displayName": "Cobalto de marca",
+        "canonical": "#2447D8",
+        "tonalRamp": ["#0A1238", "#10205A", "#183180", "#1F3FAE", "#2447D8", "#4A6BE8", "#7A93F2", "#B0C0F8"]
       },
       "marigold": {
         "role": "secondary",
@@ -78,7 +84,7 @@
       "refersTo": "button-primary",
       "description": "Bloque ciruela con rótulo en versalitas; hover verde botella.",
       "html": "<a class='ds-btn' href='#'>Reservar mi diagnóstico</a>",
-      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:49.6px;padding:14.4px 24px;background:#23102B;color:#FFF1E0;border:2px solid #23102B;border-radius:4px;font:800 14px/1.35 'Bricolage',system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:background-color .18s ease,border-color .18s ease,transform .18s cubic-bezier(.2,.8,.2,1)}.ds-btn:hover{background:#0B6B63;border-color:#0B6B63}.ds-btn:active{transform:translateY(2px)}.ds-btn:focus-visible{outline:3px solid #E84A85;outline-offset:3px}"
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:49.6px;padding:14.4px 24px;background:#23102B;color:#FFF1E0;border:2px solid #23102B;border-radius:4px;font:800 14px/1.35 'Bricolage',system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:background-color .18s ease,border-color .18s ease,transform .18s cubic-bezier(.2,.8,.2,1)}.ds-btn:hover{background:#0B6B63;border-color:#0B6B63}.ds-btn:active{transform:translateY(2px)}.ds-btn:focus-visible{outline:3px solid #2447D8;outline-offset:3px}"
     },
     {
       "name": "Invitation Card",
@@ -86,7 +92,7 @@
       "refersTo": "invitation",
       "description": "Tarjeta crema girada -2° con franja ciruela, datos y talón marigol.",
       "html": "<div class='ds-invite'><div class='ds-invite-strip'><span>Admit one</span><span>Shuaaay.party</span></div><div class='ds-invite-body'><p class='ds-invite-label'>Estás invitado</p><p class='ds-invite-title'>Diagnóstico de marketing</p><dl><div><dt>Qué</dt><dd>Una llamada honesta</dd></div><div><dt>Quién</dt><dd>Tu negocio</dd></div></dl><a class='ds-invite-btn' href='#'>Reservar mi lugar</a></div><div class='ds-invite-stub'><span>RSVP</span><span>01</span></div></div>",
-      "css": ".ds-invite{max-width:400px;background:#FFF1E0;color:#23102B;border:2px solid #23102B;border-radius:14px;overflow:hidden;box-shadow:0 30px 55px -26px rgba(35,16,43,.65);transform:rotate(-2deg);font-family:'Bricolage',system-ui,sans-serif}.ds-invite-strip{display:flex;justify-content:space-between;gap:16px;background:#23102B;color:#FFF1E0;padding:9px 16px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}.ds-invite-body{padding:22px 22px 19px}.ds-invite-label{margin:0 0 8px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#E84A85}.ds-invite-title{margin:0 0 18px;font-size:28px;line-height:1.02;letter-spacing:-.03em;font-weight:800;max-width:13ch}.ds-invite dl{display:grid;gap:9px;margin:0 0 22px}.ds-invite dl div{display:grid;grid-template-columns:72px 1fr;gap:12px;border-bottom:1px solid #23102B;padding-bottom:7px}.ds-invite dt{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.ds-invite dd{margin:0;font-size:14px;line-height:1.35}.ds-invite-btn{display:flex;align-items:center;justify-content:center;min-height:49.6px;background:#23102B;color:#FFF1E0;border:2px solid #23102B;border-radius:4px;font-size:14px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}.ds-invite-stub{display:flex;justify-content:space-between;background:#FFC02E;border-top:2px dashed #23102B;padding:9px 22px;font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}"
+      "css": ".ds-invite{max-width:400px;background:#FFF1E0;color:#23102B;border:2px solid #23102B;border-radius:14px;overflow:hidden;box-shadow:0 30px 55px -26px rgba(35,16,43,.65);transform:rotate(-2deg);font-family:'Bricolage',system-ui,sans-serif}.ds-invite-strip{display:flex;justify-content:space-between;gap:16px;background:#23102B;color:#FFF1E0;padding:9px 16px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}.ds-invite-body{padding:22px 22px 19px}.ds-invite-label{margin:0 0 8px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#0B6B63}.ds-invite-title{margin:0 0 18px;font-size:28px;line-height:1.02;letter-spacing:-.03em;font-weight:800;max-width:13ch}.ds-invite dl{display:grid;gap:9px;margin:0 0 22px}.ds-invite dl div{display:grid;grid-template-columns:72px 1fr;gap:12px;border-bottom:1px solid #23102B;padding-bottom:7px}.ds-invite dt{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}.ds-invite dd{margin:0;font-size:14px;line-height:1.35}.ds-invite-btn{display:flex;align-items:center;justify-content:center;min-height:49.6px;background:#23102B;color:#FFF1E0;border:2px solid #23102B;border-radius:4px;font-size:14px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}.ds-invite-stub{display:flex;justify-content:space-between;background:#FFC02E;border-top:2px dashed #23102B;padding:9px 22px;font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}"
     },
     {
       "name": "Service Row",
@@ -109,37 +115,37 @@
       "refersTo": "ticket",
       "description": "Ticket crema con campos subrayados y talón marigol perforado.",
       "html": "<form class='ds-ticket'><div class='ds-ticket-main'><p class='ds-ticket-label'>Tu reserva</p><label for='ds-name'>Tu nombre</label><input id='ds-name' placeholder='María'><label for='ds-msg'>Qué quieres ordenar</label><textarea id='ds-msg' rows='3' placeholder='Vendo bien, pero me encuentran por casualidad.'></textarea><button type='submit'>Preparar mi correo</button></div><div class='ds-ticket-stub'><span>Shuaaay.party</span><span>Admit one</span></div></form>",
-      "css": ".ds-ticket{display:grid;grid-template-columns:minmax(0,1fr) 150px;background:#FFF1E0;color:#23102B;border:2px solid #23102B;border-radius:14px;overflow:hidden;box-shadow:0 30px 55px -28px rgba(35,16,43,.6);font-family:'Bricolage',system-ui,sans-serif}.ds-ticket-main{padding:32px}.ds-ticket-label{margin:0 0 16px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.ds-ticket label{display:block;margin-bottom:5px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.ds-ticket input,.ds-ticket textarea{width:100%;margin-bottom:18px;background:transparent;border:0;border-bottom:2px solid #23102B;border-radius:0;padding:8px 0 7px;font:inherit;font-size:16px;color:#23102B}.ds-ticket input:focus-visible,.ds-ticket textarea:focus-visible{outline:3px solid #E84A85;outline-offset:3px}.ds-ticket input::placeholder,.ds-ticket textarea::placeholder{color:#23102B;opacity:.65}.ds-ticket button{min-height:49.6px;padding:14px 24px;background:#23102B;color:#FFF1E0;border:2px solid #23102B;border-radius:4px;font:800 14px/1.35 'Bricolage',system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.ds-ticket button:hover{background:#0B6B63;border-color:#0B6B63}.ds-ticket-stub{display:flex;flex-direction:column;align-items:center;justify-content:space-between;background:#FFC02E;border-left:2px dashed #23102B;padding:24px 12px;font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;writing-mode:vertical-rl}"
+      "css": ".ds-ticket{display:grid;grid-template-columns:minmax(0,1fr) 150px;background:#FFF1E0;color:#23102B;border:2px solid #23102B;border-radius:14px;overflow:hidden;box-shadow:0 30px 55px -28px rgba(35,16,43,.6);font-family:'Bricolage',system-ui,sans-serif}.ds-ticket-main{padding:32px}.ds-ticket-label{margin:0 0 16px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.ds-ticket label{display:block;margin-bottom:5px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.ds-ticket input,.ds-ticket textarea{width:100%;margin-bottom:18px;background:transparent;border:0;border-bottom:2px solid #23102B;border-radius:0;padding:8px 0 7px;font:inherit;font-size:16px;color:#23102B}.ds-ticket input:focus-visible,.ds-ticket textarea:focus-visible{outline:3px solid #2447D8;outline-offset:3px}.ds-ticket input::placeholder,.ds-ticket textarea::placeholder{color:#23102B;opacity:.65}.ds-ticket button{min-height:49.6px;padding:14px 24px;background:#23102B;color:#FFF1E0;border:2px solid #23102B;border-radius:4px;font:800 14px/1.35 'Bricolage',system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.ds-ticket button:hover{background:#0B6B63;border-color:#0B6B63}.ds-ticket-stub{display:flex;flex-direction:column;align-items:center;justify-content:space-between;background:#FFC02E;border-left:2px dashed #23102B;padding:24px 12px;font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;writing-mode:vertical-rl}"
     }
   ],
   "narrative": {
     "northStar": "La fiesta del barrio",
-    "overview": "La página es el cartel de una fiesta de barrio que, al leerla, resulta ser una consultoría de marketing seria. El dominio .party da permiso para celebrar; el contenido no lo usa para prometer de más. Por eso hay color a sangre, banderines, una invitación y un ticket, pero también reglas de 2px, cifras tabulares y una sección que dice exactamente lo que la página todavía no puede probar. La tensión es el diseño: una superficie festiva que no se vuelve infantil, y una oferta clara que no se vuelve aburrida. La fiesta es el envoltorio; el plan es el producto.",
+    "overview": "La página es el cartel de una fiesta de barrio que, al leerla, resulta ser una consultoría de marketing seria. El dominio .party da permiso para celebrar; el contenido no lo usa para prometer de más. Por eso hay banderines, una invitación y un ticket; el color se concentra en el programa, el método y la nota honesta, y el resto es hueso y crema. También hay reglas de 2px, cifras tabulares y una sección que dice exactamente lo que la página todavía no puede probar. La tensión es el diseño: una superficie festiva que no se vuelve infantil, y una oferta clara que no se vuelve aburrida. La fiesta es el envoltorio; el plan es el producto.",
     "keyCharacteristics": [
-      "Crema, tinta ciruela, frambuesa, marigol, verde botella y rosa; cada color posee secciones enteras.",
+      "Hueso y crema para leer; cobalto, marigol, verde y rosa en objetos y bandas.",
       "Una sola familia, Bricolage Grotesque, con contraste por peso, tamaño y caja.",
       "Reglas de 2px, bordes de 2px y esquinas de 4px o 14px; sin sombras duras ni degradados.",
       "Objetos de papel: invitación girada, ticket perforado, banderín SVG, borde festoneado.",
       "Un solo momento de entrada: la invitación cae y se asienta."
     ],
     "rules": [
-      { "name": "The Field Rule", "body": "Cada color llena una sección completa: frambuesa en el hero, crema en el problema, marigol en el programa, ciruela en el método, verde en la nota honesta y frambuesa en el cierre. El color no es borde decorativo ni fondo de tarjeta.", "section": "colors" },
-      { "name": "The Ink Rule", "body": "Sobre frambuesa y marigol todo el texto va en tinta; sobre ciruela y verde, en crema. La crema sobre frambuesa solo se admite en titulares de 24px o más, nunca en cuerpo.", "section": "colors" },
+      { "name": "The Field Rule", "body": "El hero, el cierre y las secciones de lectura son hueso; las tarjetas son crema. El color se concentra en el programa (marigol), el método (ciruela), la nota honesta (verde) y los objetos.", "section": "colors" },
+      { "name": "The Ink Rule", "body": "Sobre hueso, crema y marigol todo el texto va en tinta; sobre ciruela y verde, en crema. El cobalto es acento, no campo ni texto de cuerpo.", "section": "colors" },
       { "name": "The No-Gray Rule", "body": "No existe gris en el sistema. El texto secundario se resuelve con tamaño, caja o el color de la sección.", "section": "colors" },
       { "name": "The One Voice Rule", "body": "Bricolage Grotesque variable para titulares y cuerpo; el contraste viene del peso, el tamaño y la caja, nunca de una segunda familia.", "section": "typography" },
       { "name": "The Marker Rule", "body": "El único énfasis es una barra de marigol detrás de la palabra, como un rotulador; sobre marigol, la barra es crema. No hay degradados de texto.", "section": "typography" },
       { "name": "The Flat Paper Rule", "body": "La página es plana. Solo la invitación y el ticket llevan sombra larga y difusa con desplazamiento vertical; no hay sombras duras ni halos.", "section": "elevation" }
     ],
     "dos": [
-      "Do dejar que el color ocupe secciones completas y alterne el ritmo frambuesa, crema, marigol, ciruela, crema, verde, crema, frambuesa.",
-      "Do usar tinta sobre frambuesa y marigol; crema sobre ciruela y verde.",
+      "Do reservar hueso y crema para leer y usar el color en el programa, el método, la nota y los objetos.",
+      "Do usar tinta sobre hueso, crema y marigol; crema sobre ciruela y verde.",
       "Do mantener la barra de rotulador como único recurso de énfasis.",
       "Do conservar el borde festoneado y el banderín como geometría, no como imagen.",
       "Do respetar prefers-reduced-motion en la entrada de la invitación."
     ],
     "donts": [
       "Don't añadir fotos de stock, iconos, degradados, cristal, sombras duras ni una segunda tipografía.",
-      "Don't poner crema sobre frambuesa en cuerpo de texto, ni frambuesa sobre marigol.",
+      "Don't usar cobalto como campo ni tinta sobre cobalto; tampoco crema sobre marigol.",
       "Don't convertir la fiesta en infantilismo: nada de emojis, confeti aleatorio ni globos.",
       "Don't inventar clientes, testimonios, métricas, precios ni plazos.",
       "Don't usar grises ni texto por debajo de 12px."

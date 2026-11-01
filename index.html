@@ -8,7 +8,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Shuaaay.party — Que tu negocio sea el plan">
 <meta property="og:description" content="Marketing para negocios locales. Diagnóstico, hoja de ruta y acompañamiento. Sin globos de más.">
-<meta name="theme-color" content="#E84A85">
+<meta name="theme-color" content="#FFFCF6">
 <style>
 @font-face{
   font-family:"Bricolage";
@@ -20,8 +20,9 @@
 
 :root{
   --cream:#FFF1E0;
+  --bone:#FFFCF6;
   --ink:#23102B;
-  --raspberry:#E84A85;
+  --cobalt:#2447D8;
   --marigold:#FFC02E;
   --teal:#0B6B63;
   --pink:#FFC2D1;
@@ -35,20 +36,20 @@ html{-webkit-text-size-adjust:100%}
 
 body{
   margin:0;
-  background:var(--cream);
+  background:var(--bone);
   color:var(--ink);
   font-family:"Bricolage",system-ui,-apple-system,"Segoe UI",sans-serif;
   font-size:1rem;
   line-height:1.6;
   overflow-x:hidden;
-  caret-color:var(--raspberry);
+  caret-color:var(--cobalt);
   font-synthesis-weight:none;
   -webkit-font-smoothing:antialiased;
 }
 
 ::selection{background:var(--ink);color:var(--marigold)}
 @supports (scrollbar-color:red blue){
-  html{scrollbar-color:var(--raspberry) var(--cream);scrollbar-width:thin}
+  html{scrollbar-color:var(--cobalt) var(--bone);scrollbar-width:thin}
 }
 
 h1,h2,h3{
@@ -61,7 +62,7 @@ h1,h2,h3{
 p{margin:0 0 1rem}
 p:last-child{margin-bottom:0}
 a{color:inherit;text-decoration-thickness:2px;text-underline-offset:0.2em}
-a:hover{text-decoration-color:var(--raspberry)}
+a:hover{text-decoration-color:var(--cobalt)}
 img,svg{max-width:100%}
 input,textarea,button{font:inherit;color:inherit}
 :focus-visible{
@@ -107,7 +108,7 @@ input,textarea,button{font:inherit;color:inherit}
 /* header */
 .site{
   position:sticky;top:0;z-index:30;
-  background:var(--cream);
+  background:var(--bone);
   border-bottom:2px solid var(--ink);
 }
 .site__inner{
@@ -118,7 +119,7 @@ input,textarea,button{font:inherit;color:inherit}
   font-size:1.5rem;font-weight:800;letter-spacing:-0.04em;line-height:1;
   text-decoration:none;white-space:nowrap;
 }
-.brand span{color:var(--raspberry)}
+.brand span{color:var(--cobalt)}
 .nav{display:flex;flex-wrap:wrap;align-items:center;gap:0.25rem 1.25rem}
 .nav a{
   font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;
@@ -127,7 +128,7 @@ input,textarea,button{font:inherit;color:inherit}
 .nav a:hover{text-decoration:underline}
 .nav a[aria-current="true"]{
   text-decoration:underline;
-  text-decoration-color:var(--raspberry);
+  text-decoration-color:var(--cobalt);
   text-decoration-thickness:3px;
   text-underline-offset:0.45rem;
 }
@@ -163,11 +164,10 @@ input,textarea,button{font:inherit;color:inherit}
 .section{padding:3.5rem 1.25rem;scroll-margin-top:5rem}
 .section .wrap{width:100%;max-width:var(--maxw)}
 @media (min-width:1000px){.section{padding:6rem 2.5rem}}
-.theme-cream{--accent:var(--raspberry);background:var(--cream);color:var(--ink)}
+.theme-bone{--accent:var(--teal);background:var(--bone);color:var(--ink)}
 .theme-marigold{--accent:var(--teal);background:var(--marigold);color:var(--ink)}
 .theme-plum{--accent:var(--marigold);background:var(--ink);color:var(--cream)}
 .theme-teal{--accent:var(--marigold);background:var(--teal);color:var(--cream)}
-.theme-raspberry{--accent:var(--cream);background:var(--raspberry);color:var(--ink)}
 
 h2{
   font-size:clamp(2.1rem,4.6vw,3.75rem);
@@ -193,7 +193,7 @@ h2{
 .hero{
   position:relative;
   --pad:1.25rem;
-  background:var(--raspberry);
+  background:var(--bone);
   color:var(--ink);
   padding:0.5rem var(--pad) 4.5rem;
 }
@@ -201,7 +201,7 @@ h2{
 @media (min-width:1000px){.hero{--pad:2.5rem;padding-bottom:7rem}}
 .hero::after{
   content:"";position:absolute;left:0;right:0;bottom:-11px;height:12px;
-  background:radial-gradient(circle at 12px 0,var(--raspberry) 12px,transparent 12.5px) repeat-x;
+  background:radial-gradient(circle at 12px 0,var(--marigold) 12px,transparent 12.5px) repeat-x;
   background-size:24px 12px;
   pointer-events:none;
 }
@@ -312,14 +312,14 @@ h1{
 .list--no .list__k{
   text-decoration:line-through;
   text-decoration-thickness:2px;
-  text-decoration-color:var(--raspberry);
+  text-decoration-color:var(--cobalt);
 }
 .list--no .list__k::before,
 .list--yes .list__k::before{
   content:"";flex:none;width:0.5rem;height:0.5rem;
   transform:translateY(-0.06em);
 }
-.list--no .list__k::before{background:var(--raspberry)}
+.list--no .list__k::before{background:var(--cobalt)}
 .list--yes .list__k::before{background:var(--teal)}
 .theme-marigold .list--no .list__k::before{background:var(--ink)}
 .theme-marigold .list--yes .list__k::before{background:var(--ink)}
@@ -414,6 +414,7 @@ h1{
 .faq__a{max-width:66ch;padding-bottom:1.15rem;font-size:0.875rem;line-height:1.55}
 
 /* close + ticket */
+.close{border-top:2px solid var(--ink)}
 .close h2{max-width:14ch}
 .close .lede{max-width:56ch;margin-bottom:2.5rem}
 .ticket{
@@ -448,7 +449,7 @@ h1{
 .field textarea{resize:vertical;min-height:4.5rem}
 .field input::placeholder,.field textarea::placeholder{color:var(--ink);opacity:.65}
 .field input:invalid:not(:placeholder-shown),
-.field textarea:invalid:not(:placeholder-shown){border-color:var(--raspberry)}
+.field textarea:invalid:not(:placeholder-shown){border-color:var(--cobalt)}
 .ticket__actions{display:flex;flex-wrap:wrap;align-items:center;gap:0.9rem 1.5rem}
 .ticket__alt{font-size:0.875rem;line-height:1.45;max-width:30ch;margin:0}
 .status{min-height:1.4rem;margin:0.9rem 0 0;font-size:0.875rem;font-weight:700;color:var(--teal)}
@@ -482,7 +483,7 @@ h1{
 .foot__inner{display:grid;gap:1.5rem}
 @media (min-width:760px){.foot__inner{grid-template-columns:1fr auto;align-items:end}}
 .foot .brand{color:var(--cream);font-size:1.5rem}
-.foot .brand span{color:var(--raspberry)}
+.foot .brand span{color:var(--marigold)}
 .foot a{color:var(--cream)}
 .foot p{margin:0 0 0.35rem}
 .foot__meta{display:grid;gap:0.3rem;justify-items:start}
@@ -525,15 +526,15 @@ h1{
   <section class="hero" aria-labelledby="titulo">
     <svg class="bunting" viewBox="0 0 1200 84" preserveAspectRatio="none" aria-hidden="true" focusable="false">
       <path d="M-10 9 Q600 40 1210 9" fill="none" stroke="currentColor" stroke-width="2"/>
-      <polygon points="10,10 56,10 33,58" fill="#FFF1E0"/>
+      <polygon points="10,10 56,10 33,58" fill="#0B6B63"/>
       <polygon points="130,13 176,13 153,61" fill="#FFC02E"/>
       <polygon points="250,17 296,17 273,65" fill="#0B6B63"/>
       <polygon points="370,21 416,21 393,69" fill="#FFC2D1"/>
-      <polygon points="490,24 536,24 513,72" fill="#FFF1E0"/>
+      <polygon points="490,24 536,24 513,72" fill="#0B6B63"/>
       <polygon points="610,25 656,25 633,73" fill="#FFC02E"/>
       <polygon points="730,24 776,24 753,72" fill="#0B6B63"/>
       <polygon points="850,21 896,21 873,69" fill="#FFC2D1"/>
-      <polygon points="970,17 1016,17 993,65" fill="#FFF1E0"/>
+      <polygon points="970,17 1016,17 993,65" fill="#0B6B63"/>
       <polygon points="1090,13 1136,13 1113,61" fill="#FFC02E"/>
     </svg>
 
@@ -566,7 +567,7 @@ h1{
     </div>
   </section>
 
-  <section class="section theme-cream" id="problema" aria-labelledby="problema-titulo">
+  <section class="section theme-bone" id="problema" aria-labelledby="problema-titulo">
     <div class="wrap">
       <h2 id="problema-titulo">No es que no te conozcan. Es que no te tienen <span class="mark">en el plan</span>.</h2>
       <div class="prose">
@@ -682,7 +683,7 @@ h1{
     </div>
   </section>
 
-  <section class="section theme-cream" id="encaja" aria-labelledby="encaja-titulo">
+  <section class="section theme-bone" id="encaja" aria-labelledby="encaja-titulo">
     <div class="wrap">
       <h2 id="encaja-titulo">¿Te sumas a la lista?</h2>
       <div class="fit">
@@ -715,7 +716,7 @@ h1{
     </div>
   </section>
 
-  <section class="section theme-cream" id="preguntas" aria-labelledby="preguntas-titulo">
+  <section class="section theme-bone" id="preguntas" aria-labelledby="preguntas-titulo">
     <div class="wrap">
       <h2 id="preguntas-titulo">Lo que preguntan en la barra.</h2>
       <div class="faq">
@@ -743,7 +744,7 @@ h1{
     </div>
   </section>
 
-  <section class="section theme-raspberry close" id="empezar" aria-labelledby="empezar-titulo">
+  <section class="section theme-bone close" id="empezar" aria-labelledby="empezar-titulo">
     <div class="wrap">
       <h2 id="empezar-titulo">Reserva <span class="mark">tu lugar</span>.</h2>
       <p class="lede">Cuéntame qué vendes, a quién y qué quieres ordenar. Con eso te propongo una hora y llegamos con algo pensado, no con preguntas genéricas.</p>
